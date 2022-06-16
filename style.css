@@ -252,6 +252,7 @@ nav a h1 {
     background-color:#c8c8c8;
     padding: 30px;
     justify-content: space-between;
+    overflow-x: scroll;
 
 }
 .box1 a{
@@ -310,6 +311,7 @@ nav a h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
     margin: auto;
 }
 .box3{
@@ -422,3 +424,14 @@ footer{
 
 
 }
+@media only screen and (max-width: 600px) {
+    nav{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    
+  }
